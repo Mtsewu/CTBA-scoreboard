@@ -1,0 +1,33 @@
+.logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:400px ;
+    display: block;
+}
+
+main
+{
+   margin-top: 50px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.scores
+{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size:xx-large;
+   
+}
+body
+{
+    background-color:white;
+    color:brown;
+}
+.addbtn
+{
+    margin-top:10px
+}
