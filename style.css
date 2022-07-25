@@ -16,10 +16,13 @@ main
 .scores
 {
     background-color: black;
-    width: 100px;
-    height: 100px;
+    /* position: relative; */
+    width: 200px;
+    height: 150px;
     text-align: center;
-    font-size:xx-large;
+    font-size:60px;
+    top: 15px;
+    bottom: 15px;
    
 }
 body
@@ -30,4 +33,10 @@ body
 .addbtn
 {
     margin-top:10px
+}
+
+#time
+{
+    position: absolute;
+    font-size: xx-large;
 }
