@@ -1,3 +1,5 @@
+
+
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
     setInterval(function () {
@@ -12,7 +14,7 @@ function startTimer(duration, display) {
       if (--timer < 0) {
         timer = duration;
       }
-    }, 4000);
+    }, 1000);
   }
 
   window.onload = function () {
@@ -20,6 +22,7 @@ function startTimer(duration, display) {
     display = document.querySelector('#time');
     startTimer(twelveMinutes, display);
   };
+
 
 
 
