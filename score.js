@@ -12,7 +12,7 @@ function startTimer(duration, display) {
       if (--timer < 0) {
         timer = duration;
       }
-    }, 1000);
+    }, 4000);
   }
 
   window.onload = function () {
