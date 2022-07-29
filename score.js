@@ -18,7 +18,7 @@ function run_clock(id,endtime){
 	var clock = document.getElementById(id);
 	function update_clock(){
 		var t = time_remaining(endtime);
-		clock.innerHTML = 'minutes: '+t.minutes+'<br>seconds: '+t.seconds;
+		clock.innerHTML = t.minutes+'minutes '+t.seconds;
 		if(t.total<=0){ clearInterval(timeinterval); }
 	}
 	update_clock(); // run function once at first to avoid delay
@@ -85,7 +85,12 @@ function add3()
 
     results.textContent=count
 }
+function minus1()
+{
+    count = count -1
 
+    results.textContent=count
+}
 
 let outcome= document.getElementById("Ascore")
 let x=0
@@ -108,5 +113,10 @@ function add2A()
 function add3A()
 {
     x+=3
+    outcome.textContent=x
+}
+function minus1A()
+{
+    x= x-1
     outcome.textContent=x
 }
